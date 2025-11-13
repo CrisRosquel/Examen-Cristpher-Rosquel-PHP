@@ -20,9 +20,9 @@
 
     if ($nota_media >= 9) {
         echo "<p>Sobresaliente</p>";
-    } elseif ($nota_media >= 7) {
+    } elseif ($nota_media >= 7 && $nota_media < 9) {
         echo "<p>Notable</p>";
-    } elseif ($nota_media >= 5) {
+    } elseif ($nota_media >= 5 && $nota_media < 7) {
         echo "<p>Aprobado</p>";
     } else {
         echo "<p>Suspenso</p>";
