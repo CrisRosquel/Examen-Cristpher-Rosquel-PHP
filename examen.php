@@ -32,16 +32,14 @@
         echo "Estado: Alumno matriculado";
     }
 
-    
-    
-    echo "<table border='1' cellpadding='5'>";
+    echo "<table border='1' cellpadding='5'>"; //Creo que es asi porque funciona
     $i = 1; 
     
     while ($i <= 5) { //mientras $i sea menor o igual a 5
         echo "<tr>";
         echo "<td>fila numero $i generada con hile</td>";
         echo "</tr>";
-        $i++; 
+        $i++; // esto e lo que incrementa
     }
     
     echo "</table>"; 
